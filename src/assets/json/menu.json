@@ -1,0 +1,17 @@
+{
+    "menu": [
+        {
+            "name": "Home",
+            "icon": "ri-home-4-fill",
+            "path": "/dashboard",
+            "admin": true 
+        },
+
+        {
+            "name": "Home",
+            "icon": "ri-home-4-fill",
+            "path": "/dashboard",
+            "admin": true 
+        }
+    ]
+}
