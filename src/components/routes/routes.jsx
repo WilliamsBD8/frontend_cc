@@ -9,12 +9,18 @@ import Invoices from '../pages/invoices/index.jsx';
 import InvoicesCreated from '../pages/invoices/created.jsx';
 import InvoicesEdit from '../pages/invoices/edit.jsx';
 
+import Index from '../pages/ecomerce/index.jsx';
+import ShoppingCar from '../pages/ecomerce/shopping.jsx';
+
 import ProtectedRoute from './ProtectedRoute.jsx';
 import AdminRoute from './AdminRoute.jsx';
 
 export const RenderRoutes = () => {
     return (
       <>
+        <Route exact path="/" element={<Index/>}/>
+        <Route exact path="/shoppingCar" element={<ShoppingCar/>}/>
+
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />
         <Route exact path="/forgot_password" element={<Forgot />} />
